@@ -1,0 +1,32 @@
+{
+  "Bull": {
+    "dimensions_mm": [
+      200.0,
+      94.569,
+      164.06
+    ],
+    "triangles": 2672,
+    "volume_mm3": 883280.187,
+    "connected_solids": 1
+  },
+  "Cow": {
+    "dimensions_mm": [
+      158.621,
+      74.156,
+      130.216
+    ],
+    "triangles": 2548,
+    "volume_mm3": 415445.986,
+    "connected_solids": 1
+  },
+  "Calf": {
+    "dimensions_mm": [
+      89.655,
+      38.777,
+      68.024
+    ],
+    "triangles": 2292,
+    "volume_mm3": 37852.895,
+    "connected_solids": 1
+  }
+}

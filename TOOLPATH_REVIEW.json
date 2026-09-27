@@ -1,0 +1,372 @@
+{
+  "bed_mm": [
+    256,
+    256
+  ],
+  "includes_circular_arc_extrema": true,
+  "files": {
+    "01_Bull_integral_display_base": {
+      "gcode_sha256": "b186ac53763ee0a8f06a28c831cc0349a4ce38dc2d87bd830188d09ff7c758a1",
+      "extruding_segments": 812753,
+      "support_segments": 469040,
+      "model_layer_heights": 842,
+      "toolpath_bounds_mm": [
+        [
+          12.526,
+          48.279,
+          0.2
+        ],
+        [
+          239.475,
+          205.661,
+          168.4
+        ]
+      ],
+      "arc_segments": 299473,
+      "feature_segment_counts": {
+        "Support": 374897,
+        "Brim": 922,
+        "Outer wall": 84190,
+        "Inner wall": 106751,
+        "Bottom surface": 725,
+        "Gap infill": 5730,
+        "Internal solid infill": 65964,
+        "Sparse infill": 70276,
+        "Internal Bridge": 1257,
+        "Top surface": 4407,
+        "Support interface": 94143,
+        "Overhang wall": 3154,
+        "Bridge": 337
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "01_Bull_plain": {
+      "gcode_sha256": "f5b8eea6c7fbf061100fc41be3a58c4033bc91b1a5b883b30b73903685cf2bb3",
+      "extruding_segments": 599675,
+      "support_segments": 301937,
+      "model_layer_heights": 820,
+      "toolpath_bounds_mm": [
+        [
+          28.19,
+          77.719,
+          0.2
+        ],
+        [
+          227.524,
+          173.626,
+          164.0
+        ]
+      ],
+      "arc_segments": 184296,
+      "feature_segment_counts": {
+        "Support": 227855,
+        "Brim": 1238,
+        "Outer wall": 71916,
+        "Inner wall": 89614,
+        "Bottom surface": 123,
+        "Gap infill": 3839,
+        "Internal solid infill": 59547,
+        "Sparse infill": 67262,
+        "Support interface": 74082,
+        "Overhang wall": 964,
+        "Internal Bridge": 348,
+        "Top surface": 2585,
+        "Bridge": 302
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "01_Bull_with_charge_stripes": {
+      "gcode_sha256": "245093e9d720cf373a44e538236124598fa701e6d39a8c1b9f805f9035c624ca",
+      "extruding_segments": 752065,
+      "support_segments": 422692,
+      "model_layer_heights": 820,
+      "toolpath_bounds_mm": [
+        [
+          28.073,
+          76.726,
+          0.2
+        ],
+        [
+          228.375,
+          190.105,
+          164.0
+        ]
+      ],
+      "arc_segments": 255375,
+      "feature_segment_counts": {
+        "Support": 331135,
+        "Brim": 1152,
+        "Outer wall": 82412,
+        "Inner wall": 103069,
+        "Bottom surface": 124,
+        "Gap infill": 5464,
+        "Internal solid infill": 61544,
+        "Sparse infill": 67929,
+        "Support interface": 91557,
+        "Overhang wall": 3172,
+        "Internal Bridge": 352,
+        "Top surface": 3859,
+        "Bridge": 296
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true,
+      "raised_hoof_support_segments_z10_to13": 1911,
+      "raised_hoof_model_segments_z12_to19": 1553
+    },
+    "02_Cow_integral_display_base": {
+      "gcode_sha256": "0096a6e0b81332a84c0c55ccb259c4c9571666ed0c59df9bc3d92ce1fe571f2c",
+      "extruding_segments": 553088,
+      "support_segments": 309678,
+      "model_layer_heights": 672,
+      "toolpath_bounds_mm": [
+        [
+          33.299,
+          63.117,
+          0.2
+        ],
+        [
+          227.928,
+          193.99,
+          134.4
+        ]
+      ],
+      "arc_segments": 198122,
+      "feature_segment_counts": {
+        "Support": 248228,
+        "Brim": 782,
+        "Outer wall": 63916,
+        "Inner wall": 82331,
+        "Bottom surface": 571,
+        "Gap infill": 5272,
+        "Internal solid infill": 40392,
+        "Sparse infill": 43126,
+        "Internal Bridge": 881,
+        "Top surface": 3449,
+        "Support interface": 61450,
+        "Overhang wall": 2465,
+        "Bridge": 225
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "02_Cow_plain": {
+      "gcode_sha256": "ba855aec20400d9e54e86039f87d23cb93c0086a81285cb305456cd3d95bd813",
+      "extruding_segments": 396096,
+      "support_segments": 187669,
+      "model_layer_heights": 650,
+      "toolpath_bounds_mm": [
+        [
+          48.536,
+          87.436,
+          0.2
+        ],
+        [
+          207.673,
+          163.884,
+          130.0
+        ]
+      ],
+      "arc_segments": 114581,
+      "feature_segment_counts": {
+        "Support": 141553,
+        "Brim": 1640,
+        "Outer wall": 54304,
+        "Inner wall": 68928,
+        "Bottom surface": 124,
+        "Gap infill": 3797,
+        "Internal solid infill": 35578,
+        "Sparse infill": 41012,
+        "Support interface": 46116,
+        "Overhang wall": 707,
+        "Bridge": 202,
+        "Top surface": 1976,
+        "Internal Bridge": 159
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "02_Cow_with_charge_stripes": {
+      "gcode_sha256": "e71d36e179609ea7c7a6ce2d773df49618db828e3fe4d452c51027e1c8f4db91",
+      "extruding_segments": 507445,
+      "support_segments": 275410,
+      "model_layer_heights": 650,
+      "toolpath_bounds_mm": [
+        [
+          87.385,
+          48.837,
+          0.2
+        ],
+        [
+          170.539,
+          207.355,
+          130.0
+        ]
+      ],
+      "arc_segments": 167902,
+      "feature_segment_counts": {
+        "Support": 219710,
+        "Brim": 1554,
+        "Outer wall": 62189,
+        "Inner wall": 78959,
+        "Bottom surface": 118,
+        "Gap infill": 5043,
+        "Internal solid infill": 36726,
+        "Sparse infill": 41656,
+        "Support interface": 55700,
+        "Overhang wall": 2422,
+        "Bridge": 204,
+        "Top surface": 2986,
+        "Internal Bridge": 178
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "03_Calf_integral_display_base": {
+      "gcode_sha256": "f73d0739b00e15653cc55c4d0445f9ccc7c636ab0d592989d4e6a66a5550c582",
+      "extruding_segments": 215911,
+      "support_segments": 117031,
+      "model_layer_heights": 356,
+      "toolpath_bounds_mm": [
+        [
+          66.45,
+          88.89,
+          0.2
+        ],
+        [
+          179.947,
+          167.732,
+          71.2
+        ]
+      ],
+      "arc_segments": 77850,
+      "feature_segment_counts": {
+        "Support": 94394,
+        "Brim": 448,
+        "Outer wall": 26243,
+        "Inner wall": 32745,
+        "Bottom surface": 313,
+        "Gap infill": 2099,
+        "Internal solid infill": 25704,
+        "Sparse infill": 8385,
+        "Internal Bridge": 433,
+        "Overhang wall": 1266,
+        "Top surface": 1158,
+        "Support interface": 22637,
+        "Bridge": 86
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "03_Calf_plain": {
+      "gcode_sha256": "f0b3d5753aad901571748616bb5a59a0882337cd23964816b9b039428723b124",
+      "extruding_segments": 155070,
+      "support_segments": 75857,
+      "model_layer_heights": 340,
+      "toolpath_bounds_mm": [
+        [
+          81.475,
+          102.872,
+          0.2
+        ],
+        [
+          172.865,
+          147.527,
+          68.0
+        ]
+      ],
+      "arc_segments": 49096,
+      "feature_segment_counts": {
+        "Support": 61007,
+        "Brim": 132,
+        "Outer wall": 19757,
+        "Inner wall": 26287,
+        "Bottom surface": 16,
+        "Internal solid infill": 23462,
+        "Support interface": 14850,
+        "Overhang wall": 395,
+        "Bridge": 90,
+        "Gap infill": 608,
+        "Sparse infill": 7907,
+        "Top surface": 458,
+        "Internal Bridge": 101
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "03_Calf_with_charge_stripes": {
+      "gcode_sha256": "103431b729e51d23c8219e320c909e8e49c7bcecc13e032f1ce9374d1192f0a1",
+      "extruding_segments": 204940,
+      "support_segments": 114604,
+      "model_layer_heights": 340,
+      "toolpath_bounds_mm": [
+        [
+          77.694,
+          95.987,
+          0.2
+        ],
+        [
+          172.882,
+          147.527,
+          68.0
+        ]
+      ],
+      "arc_segments": 71821,
+      "feature_segment_counts": {
+        "Support": 92628,
+        "Brim": 137,
+        "Outer wall": 24598,
+        "Inner wall": 29532,
+        "Bottom surface": 16,
+        "Internal solid infill": 23687,
+        "Support interface": 21976,
+        "Overhang wall": 1262,
+        "Bridge": 90,
+        "Gap infill": 2030,
+        "Sparse infill": 7968,
+        "Top surface": 915,
+        "Internal Bridge": 101
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    },
+    "04_Family_on_230mm_oval_display": {
+      "gcode_sha256": "bf0bf60ea058abd2bb74dd03afc6df9d1fea16744f282e105237cb950e659e85",
+      "extruding_segments": 914106,
+      "support_segments": 559239,
+      "model_layer_heights": 537,
+      "toolpath_bounds_mm": [
+        [
+          0.25,
+          32.871,
+          0.2
+        ],
+        [
+          255.75,
+          231.515,
+          107.4
+        ]
+      ],
+      "arc_segments": 382917,
+      "feature_segment_counts": {
+        "Support": 480289,
+        "Brim": 1161,
+        "Outer wall": 96977,
+        "Inner wall": 118569,
+        "Bottom surface": 880,
+        "Gap infill": 5957,
+        "Internal solid infill": 76679,
+        "Sparse infill": 45885,
+        "Internal Bridge": 1338,
+        "Top surface": 3167,
+        "Support interface": 78950,
+        "Overhang wall": 3996,
+        "Bridge": 258
+      },
+      "within_bed_including_0_25mm_extrusion_margin": true,
+      "passed": true
+    }
+  },
+  "all_passed": true
+}

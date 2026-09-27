@@ -1,0 +1,215 @@
+{
+  "slicer": "OrcaSlicer 2.4.0",
+  "validation_profile_only": true,
+  "printer_profile": "Elegoo Centauri Carbon 0.4 nozzle (256 mm bed)",
+  "material": "Generic PLA",
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "wall_loops": 3,
+  "infill_percent": 15,
+  "supports": "automatic tree, on bed and model",
+  "support_threshold_angle_degrees": 45,
+  "files": {
+    "STL/01_Bull_with_charge_stripes.stl": {
+      "exit_code": 0,
+      "seconds": 53.6,
+      "gcode_bytes": 35070837,
+      "support_sections": 6392,
+      "sliced_3mf_verified": true,
+      "source_sha256": "2afb691cc7dd40cbd59cfd9fe88ef31774757fce321e31fcecede1c0341482e9",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 967": "; total layer number: 967",
+        "filament used [mm]": "106641.69",
+        "filament used [g]": "320.63",
+        "total filament used [g]": "320.63"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 967
+    },
+    "STL/02_Cow_with_charge_stripes.stl": {
+      "exit_code": 0,
+      "seconds": 16.0,
+      "gcode_bytes": 23907395,
+      "support_sections": 4429,
+      "sliced_3mf_verified": true,
+      "source_sha256": "9c2be42f3e0779860adbeb0ffccb6cbd66ab38d2d01eaf01a6983a7b450ba725",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 778": "; total layer number: 778",
+        "filament used [mm]": "58215.75",
+        "filament used [g]": "175.03",
+        "total filament used [g]": "175.03"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 778
+    },
+    "STL/03_Calf_with_charge_stripes.stl": {
+      "exit_code": 0,
+      "seconds": 6.2,
+      "gcode_bytes": 9936130,
+      "support_sections": 1948,
+      "sliced_3mf_verified": true,
+      "source_sha256": "df554f800403bd18268a923b54173bc61ca52cbd746d2d8ea2934a49cce0a15a",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 396": "; total layer number: 396",
+        "filament used [mm]": "11459.28",
+        "filament used [g]": "34.45",
+        "total filament used [g]": "34.45"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 396
+    },
+    "STL/optional_plain/01_Bull_plain.stl": {
+      "exit_code": 0,
+      "seconds": 21.5,
+      "gcode_bytes": 27056908,
+      "support_sections": 4733,
+      "sliced_3mf_verified": true,
+      "source_sha256": "bc02f912fb8b9a866c0a183f377883a95a21664b269e7a4704624ee1fa34a846",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 1056": "; total layer number: 1056",
+        "filament used [mm]": "94668.97",
+        "filament used [g]": "284.63",
+        "total filament used [g]": "284.63"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 1056
+    },
+    "STL/optional_plain/02_Cow_plain.stl": {
+      "exit_code": 0,
+      "seconds": 12.8,
+      "gcode_bytes": 17931020,
+      "support_sections": 3223,
+      "sliced_3mf_verified": true,
+      "source_sha256": "fce0255ac58f30321637018024218e10ba1a251d66792e49fc0c39a781e1c2c7",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 830": "; total layer number: 830",
+        "filament used [mm]": "50335.50",
+        "filament used [g]": "151.34",
+        "total filament used [g]": "151.34"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 830
+    },
+    "STL/optional_plain/03_Calf_plain.stl": {
+      "exit_code": 0,
+      "seconds": 4.0,
+      "gcode_bytes": 7333839,
+      "support_sections": 1395,
+      "sliced_3mf_verified": true,
+      "source_sha256": "902f40bf81ec7be88069219d90e9806e5ac9c7b5fd577345366884421219ea90",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 412": "; total layer number: 412",
+        "filament used [mm]": "8896.11",
+        "filament used [g]": "26.75",
+        "total filament used [g]": "26.75"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 412
+    },
+    "STL/optional_with_bases/01_Bull_integral_display_base.stl": {
+      "exit_code": 0,
+      "seconds": 52.9,
+      "gcode_bytes": 36997197,
+      "support_sections": 6008,
+      "sliced_3mf_verified": true,
+      "source_sha256": "ae5700c8273271e56b216bc06abf7e1147a6e3e58180306d398c5620cc0a2790",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 1004": "; total layer number: 1004",
+        "filament used [mm]": "129195.57",
+        "filament used [g]": "388.44",
+        "total filament used [g]": "388.44"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 1004
+    },
+    "STL/optional_with_bases/02_Cow_integral_display_base.stl": {
+      "exit_code": 0,
+      "seconds": 29.9,
+      "gcode_bytes": 25501136,
+      "support_sections": 4340,
+      "sliced_3mf_verified": true,
+      "source_sha256": "bf1e2db419e96357377b07460f6dd0fc912cdda19cdc60904fe3e8334127acf8",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 790": "; total layer number: 790",
+        "filament used [mm]": "71936.63",
+        "filament used [g]": "216.28",
+        "total filament used [g]": "216.28"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 790
+    },
+    "STL/optional_with_bases/03_Calf_integral_display_base.stl": {
+      "exit_code": 0,
+      "seconds": 5.8,
+      "gcode_bytes": 10280445,
+      "support_sections": 1884,
+      "sliced_3mf_verified": true,
+      "source_sha256": "b9034664da9e05ca54cfba311f5cf81a4cce7cac425e3bd668f2e8075167de90",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 446": "; total layer number: 446",
+        "filament used [mm]": "15034.89",
+        "filament used [g]": "45.20",
+        "total filament used [g]": "45.20"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 446
+    },
+    "STL/optional_with_bases/04_Family_on_230mm_oval_display.stl": {
+      "exit_code": 0,
+      "seconds": 67.7,
+      "gcode_bytes": 41200970,
+      "support_sections": 5132,
+      "sliced_3mf_verified": true,
+      "source_sha256": "ab83e8e9bebdbaf739bfa0c19729a6c018fd3315c5828481da5e1608b4de825e",
+      "slicer_messages": [
+        "gcode path conflicts check takes 0 secs.",
+        "error_code 65540, description: Invalid OpenGL version 3.4"
+      ],
+      "estimates": {
+        "total layer number: 593": "; total layer number: 593",
+        "filament used [mm]": "99268.23",
+        "filament used [g]": "298.46",
+        "total filament used [g]": "298.46"
+      },
+      "passed": true,
+      "toolpath_layers_including_support": 593
+    }
+  },
+  "all_passed": true
+}
